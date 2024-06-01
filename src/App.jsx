@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes, Route, Link
 } from 'react-router-dom'
 import About from './About'

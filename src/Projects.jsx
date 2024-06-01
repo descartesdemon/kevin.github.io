@@ -9,7 +9,7 @@ const Projects = () => {
             <h5>Dungeon Exploration Game (Fall 2023)</h5>
 
             <div className="video-responsive">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIZSBxT03Bo?si=AiBMQ_CRtB4cCc8D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIZSBxT03Bo?si=AiBMQ_CRtB4cCc8D" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
             <a href="https://fa23.datastructur.es/materials/proj/proj3/">Project spec</a>
             <p>Collaborated with partner to create a little 2D exploration game and, as a bonus, developed a rudimentary raycasting engine for enabling a 3D view for the game.</p>
