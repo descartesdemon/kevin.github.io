@@ -36,6 +36,7 @@ const ProjectBox = (props) => {
         </div>
     )
 }
+// TODO: put projects in separate file and load from there
 const Projects = () => {
     return (
         <>
@@ -50,6 +51,10 @@ const Projects = () => {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/VIZSBxT03Bo?si=AiBMQ_CRtB4cCc8D" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <a href="https://fa23.datastructur.es/materials/proj/proj3/">Project Spec</a>
+                </ProjectBox>
+
+                <ProjectBox name = "File Sharing System" desc = "Worked with a partner to design a secure file sharing system enabling users to log in, store files, and share files while in the presence of attackers. Implemented the system utilizing various encryption and verification functions from provided cryptography library.">
+                    <a href="https://su24.cs161.org/proj2/policies/">Project Spec</a>
                 </ProjectBox>
 
                 <ProjectBox name = "CS61CPU" desc = "Built a CPU that runs RISC-V assembly instructions using logic gates in Logisim." >
@@ -73,13 +78,12 @@ const Projects = () => {
             <h3>Personal</h3>
 
             <ProjectScroll>
-                <ProjectBox name = "This Website" desc = "I made this using React.">
+                <ProjectBox name = "Hackathon Cooking App (Summer 2024)" desc = "Developed an app for generating recipe suggestions using React Native for UC Berkeley AI Hackathon. Integrated AI features using OpenAI API for visual processing and text/image generation.">
+                    <div className="video-responsive">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PA-jGcjEBK0?si=Ocbp3Ixbcr-a8MJW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </ProjectBox>
 
-                </ProjectBox>
-                
-                <ProjectBox name = "ROBLOX Games" desc = "I spent a lot of my childhood making games on ROBLOX. Although I didn't end up publishing many finished games, I learned a lot about programming and game design from this experience. TODO: add screenshots/demo">
-                    
-                </ProjectBox>
             </ProjectScroll>
 
         </>
